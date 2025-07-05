@@ -43,10 +43,11 @@ body::-webkit-scrollbar { display: none; }
 
 .projectFrame {
     height: 140px; background-color: #fff;
-	border-radius: 12px;
+	border-radius: 12px; transition: all 200ms ease;
 	padding-bottom: 12px; display: flex;
 	flex-direction: column; align-items: center;
 }
+.projectFrame:hover { box-shadow: 0 0 10px #fff; scale: 1.1; }
 
 .projectFrame h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
