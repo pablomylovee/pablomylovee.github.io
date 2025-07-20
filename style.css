@@ -47,7 +47,7 @@ body::-webkit-scrollbar { display: none; }
 	padding-bottom: 12px; display: flex;
 	flex-direction: column; align-items: center;
 }
-.projectFrame:hover { box-shadow: 0 0 10px #909090; scale: 1.1; }
+.projectFrame:hover { box-shadow: 0 0 10px #909090; scale: 1.05; }
 
 .projectFrame h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
